@@ -62,7 +62,7 @@ body.portrait #fs{display:none}
   <div>TURN YOUR PHONE SIDEWAYS<br>ΓΥΡΙΣΕ ΤΟ ΚΙΝΗΤΟ ΟΡΙΖΟΝΤΙΑ</div>
 </div>
 <pre id="dbg" hidden style="position:fixed;left:6px;top:6px;max-width:90vw;max-height:40vh;overflow:auto;background:rgba(0,0,0,.8);color:#ffd28a;font:10px/1.35 ui-monospace,monospace;padding:6px;border-radius:6px;z-index:9;white-space:pre-wrap"></pre>
-<script src="b/loader.js?v=1793745207"></script>
+<script src="b/loader.js?v=1793782308"></script>
 <script>
 (() => {
   const dbg = document.getElementById('dbg');
@@ -75,8 +75,8 @@ body.portrait #fs{display:none}
   addEventListener('error', e => note('ERR', [e.message + ' @' + e.filename + ':' + e.lineno]));
   addEventListener('unhandledrejection', e => note('REJ', [e.reason]));
 
-  const BUILD = '1793745207';
-  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 6541089}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm", "b/data_05.wasm", "b/data_06.wasm", "b/data_07.wasm", "b/data_08.wasm", "b/data_09.wasm", "b/data_10.wasm"], "gz": 157578000}};
+  const BUILD = '1793782308';
+  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 6541161}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm", "b/data_05.wasm", "b/data_06.wasm", "b/data_07.wasm", "b/data_08.wasm", "b/data_09.wasm", "b/data_10.wasm"], "gz": 157578093}};
 
   // Fit a 16:9 stage into the visible area (safe areas excluded) in either orientation
   const stage = document.getElementById('stage'), wrap = document.getElementById('wrap');
