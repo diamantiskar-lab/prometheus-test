@@ -75,7 +75,7 @@ body.portrait #fs{display:none}
   ['touchstart', 'touchend', 'pointerdown', 'pointerup', 'mousedown', 'mouseup', 'click', 'keydown']
     .forEach(e => addEventListener(e, wake, { capture: true, passive: true })); })();
 </script>
-<script src="b/loader.js?v=1793993718"></script>
+<script src="b/loader.js?v=1794010378"></script>
 <script>
 (() => {
   const dbg = document.getElementById('dbg');
@@ -88,8 +88,8 @@ body.portrait #fs{display:none}
   addEventListener('error', e => note('ERR', [e.message + ' @' + e.filename + ':' + e.lineno]));
   addEventListener('unhandledrejection', e => note('REJ', [e.reason]));
 
-  const BUILD = '1793993718';
-  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 11600360}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm", "b/data_05.wasm"], "gz": 75685647}};
+  const BUILD = '1794010378';
+  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 11601374}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm", "b/data_05.wasm"], "gz": 75627575}};
 
   // Fit a 16:9 stage into the visible area (safe areas excluded) in either orientation
   const stage = document.getElementById('stage'), wrap = document.getElementById('wrap');
