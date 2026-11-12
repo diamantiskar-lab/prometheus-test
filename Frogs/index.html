@@ -72,7 +72,7 @@ body.portrait #rot{display:flex}
   ['touchstart', 'touchend', 'pointerdown', 'pointerup', 'mousedown', 'mouseup', 'click', 'keydown']
     .forEach(e => addEventListener(e, wake, { capture: true, passive: true })); })();
 </script>
-<script src="b/loader.js?v=1794387025"></script>
+<script src="b/loader.js?v=1794476411"></script>
 <script>
 (() => {
   const dbg = document.getElementById('dbg');
@@ -85,8 +85,8 @@ body.portrait #rot{display:flex}
   addEventListener('error', e => note('ERR', [e.message + ' @' + e.filename + ':' + e.lineno]));
   addEventListener('unhandledrejection', e => note('REJ', [e.reason]));
 
-  const BUILD = '1794387025';
-  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 11604954}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm"], "gz": 69111604}};
+  const BUILD = '1794476411';
+  const M = {"code": {"parts": ["b/code_00.wasm"], "gz": 11607336}, "data": {"parts": ["b/data_00.wasm", "b/data_01.wasm", "b/data_02.wasm", "b/data_03.wasm", "b/data_04.wasm"], "gz": 69805412}};
 
   // Fit a 16:9 stage into the visible area (safe areas excluded) in either orientation
   const stage = document.getElementById('stage'), wrap = document.getElementById('wrap');
